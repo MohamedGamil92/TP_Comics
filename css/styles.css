@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+h1,h2{
+    font-family: 'Zhi Mang Xing';
+}
+h1{
+    text-align: center;
+    font-size: 7rem;
+}
+html{
+    font-size: 60%;
+    background: url("../asset/tpComicsWallpaper.png") no-repeat center center fixed;
+    background-size: cover;
+}
+body{
+    margin: auto;
+    font: 1.6rem sans-serif;
+    max-width: 90rem;
+    box-shadow: 0 -2rem 2rem;
+    background-color: #FFFFFF;
+}
+img{
+    width: 100%;
+}
+h1,h2,ul{
+    margin: 0;
+    font-weight: 500;
+    list-style: none;
+    padding:0;
+}
+header{
+    padding: 4rem ;
+}
+main{
+    padding: 1rem;
+}
+h2{
+	color:#FFFFFF;
+	font-size: 4rem;
+    background-color: #0492C2;
+    padding: 1.5rem;
+}
+h2:hover {
+  background-color:#B53737;
+}
+footer{
+    text-align: center;
+}
+p{
+    padding: 1rem;
+    line-height: 2.6rem;
+}
+section {
+    padding-bottom: 2rem;
+}
+h1:before{
+    content: "\002605";
+    color:#B53737;
+}
+a{
+	text-decoration: none;
+}
